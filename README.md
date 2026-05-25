@@ -9,29 +9,20 @@ Software en **C++** con **Visual Studio** y **SQLite** para registrar hábitos a
 
 | Fase | Requisito | Estado |
 |------|-----------|--------|
-| **1** | Interfaz consola | ✅ (`--console`) |
-| **1/3** | Interfaz gráfica WinAPI | ✅ |
-| **1** | Registro de persona (nombre, edad, género, depto, municipio, peso, altura, actividad, ocupación) | ✅ |
-| **1** | Registro de alimentos (producto, cantidad, calorías, carbohidratos, proteínas, grasas) | ✅ |
-| **1** | Almacenamiento SQL | ✅ |
-| **2** | Cálculo IMC | ✅ |
-| **2** | Requerimiento calórico (Mifflin-St Jeor) | ✅ |
-| **2** | Comparación calorías ingeridas vs recomendadas | ✅ |
-| **2** | Alertas macronutrientes, azúcar, grasas saturadas | ✅ |
-| **2** | Reporte en pantalla y archivo `.txt` | ✅ |
-| **3** | Recomendaciones según meta (bajar/mantener/subir) + MSPS Guatemala | ✅ |
-| **3** | Gráficos (barras GDI / WinAPI) | ✅ |
-| **3** | Alternativas alimentarias personalizadas | ✅ |
+| **1** | Interfaz consola |  (`--console`) |
+| **1/3** | Interfaz gráfica WinAPI |  |
+| **1** | Registro de persona (nombre, edad, género, depto, municipio, peso, altura, actividad, ocupación) | |
+| **1** | Registro de alimentos (producto, cantidad, calorías, carbohidratos, proteínas, grasas) |  |
+| **1** | Almacenamiento SQL |  |
+| **2** | Cálculo IMC | |
+| **2** | Requerimiento calórico (Mifflin-St Jeor) |  |
+| **2** | Comparación calorías ingeridas vs recomendadas |  |
+| **2** | Alertas macronutrientes, azúcar, grasas saturadas |  |
+| **2** | Reporte en pantalla y archivo `.txt` |  |
+| **3** | Recomendaciones según meta (bajar/mantener/subir) + MSPS Guatemala | |
+| **3** | Gráficos (barras GDI / WinAPI) |  |
+| **3** | Alternativas alimentarias personalizadas |  |
 
-## Cómo abrir y compilar
-
-1. Doble clic en **`DatabaseApp.sln`**
-2. Configuración: **Release | x64**
-3. Compilar (Ctrl+Mayús+B) → Ejecutar (Ctrl+F5) → **ventana gráfica**
-4. **Meta de peso:** lista con Bajar / Mantener / Subir
-5. **Eliminar persona** y formulario que se limpia al guardar
-6. Análisis con referencias **MSPS Guatemala** (Plato del Buen Comer)
-7. Consola opcional: `DatabaseApp.exe --console`
 
 Base de datos: `nutricion.db` (junto al `.exe` en `bin\Release\`)
 
