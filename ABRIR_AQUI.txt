@@ -1,12 +1,9 @@
-NUTRICION GT - CHIMALTENANGO
-ABRIR: DatabaseApp.sln -> Compilar -> Ejecutar (Ctrl+F5)
+Este es la edicion final de nuestro proeyecto de programacion
 
-NOVEDADES:
-- Departamento fijo: Chimaltenango
-- Municipio: lista con 16 municipios
-- Peso en LIBRAS (lb)
-- Al guardar persona o alimento: campos se limpian
-- Boton Ver perfil (persona seleccionada)
-- Boton Salir
-- Fecha visible al registrar alimentos
-- Interfaz con colores verdes
+Oscar Jesé Armando Higueros Ibaté 1990-25-13604
+Cristian Obed Ollej Noj 1990-25-
+Brandon Ovidio Jonathan Lopez Tun 1990-25-
+Heidy Maria Lizeth Santos Mulul 1990-25-
+
+Docente
+Ingeniero Hecto Jahaziel Luna Iriarte
