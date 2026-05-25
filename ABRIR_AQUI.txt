@@ -1,0 +1,12 @@
+NUTRICION GT - CHIMALTENANGO
+ABRIR: DatabaseApp.sln -> Compilar -> Ejecutar (Ctrl+F5)
+
+NOVEDADES:
+- Departamento fijo: Chimaltenango
+- Municipio: lista con 16 municipios
+- Peso en LIBRAS (lb)
+- Al guardar persona o alimento: campos se limpian
+- Boton Ver perfil (persona seleccionada)
+- Boton Salir
+- Fecha visible al registrar alimentos
+- Interfaz con colores verdes

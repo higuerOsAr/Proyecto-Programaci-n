@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source"><UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier></Filter>
+    <Filter Include="GUI"><UniqueIdentifier>{A1A2A3A4-B1B2-C3C4-D5D6-E7E8E9E0E1E2}</UniqueIdentifier></Filter>
+    <Filter Include="Headers"><UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier></Filter>
+    <Filter Include="ThirdParty"><UniqueIdentifier>{67DA6AB6-FC0C-4c43-9F30-2B622E5A0F4E}</UniqueIdentifier></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\winmain.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\ConsoleMenu.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\Database.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\Statement.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\Transaction.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\PersonaRepository.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\AlimentoRepository.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\NutritionAnalyzer.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\ReportGenerator.cpp"><Filter>Source</Filter></ClCompile>
+    <ClCompile Include="src\gui\WinUtil.cpp"><Filter>GUI</Filter></ClCompile>
+    <ClCompile Include="src\gui\AppServices.cpp"><Filter>GUI</Filter></ClCompile>
+    <ClCompile Include="src\gui\MainWindow.cpp"><Filter>GUI</Filter></ClCompile>
+    <ClCompile Include="src\gui\ChartWindow.cpp"><Filter>GUI</Filter></ClCompile>
+    <ClCompile Include="third_party\sqlite\sqlite3.c"><Filter>ThirdParty</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ConsoleMenu.h"><Filter>Headers</Filter></ClInclude>
+    <ClInclude Include="src\Database.h"><Filter>Headers</Filter></ClInclude>
+    <ClInclude Include="src\gui\WinUtil.h"><Filter>GUI</Filter></ClInclude>
+    <ClInclude Include="src\gui\AppServices.h"><Filter>GUI</Filter></ClInclude>
+    <ClInclude Include="src\gui\MainWindow.h"><Filter>GUI</Filter></ClInclude>
+    <ClInclude Include="src\gui\ChartWindow.h"><Filter>GUI</Filter></ClInclude>
+    <ClInclude Include="third_party\sqlite\sqlite3.h"><Filter>ThirdParty</Filter></ClInclude>
+  </ItemGroup>
+</Project>

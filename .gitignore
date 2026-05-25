@@ -1,0 +1,10 @@
+bin/
+obj/
+*.db
+nutricion.db
+reporte_*.txt
+*.db-wal
+*.db-shm
+.vs/
+*.user
+*.suo
