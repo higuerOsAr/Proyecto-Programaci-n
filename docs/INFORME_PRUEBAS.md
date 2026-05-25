@@ -34,9 +34,6 @@
 | 19 | GUI gráficos | Botón Ver gráficos | Ventana con barras calorías/macros | OK |
 | 20 | GUI reporte TXT | Exportar reporte | Archivo `.txt` generado | OK |
 
-## Evidencia sugerida para el video (por rol)
-
-| Rol | Qué mostrar en el video |
 |-----|-------------------------|
 | Backend | Tablas SQL, `PersonaRepository`, `AlimentoRepository`, inserción y consultas |
 | Frontend | Ventana WinAPI, formularios, listas, gráficos, reporte TXT |
